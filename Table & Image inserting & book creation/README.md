@@ -1,0 +1,3 @@
+## Table & Image Inserting & Book creation in Latex
+
+In LaTeX, you can create tables using the `tabular` environment, where columns and rows are defined, and commands like `\hline` add horizontal lines for structure. For inserting images, the `graphicx` package is used with the `\includegraphics{}` command, allowing you to adjust the image's size and position. To create a book, the `book` document class is used, where you can organize the content into chapters, sections, and subsections. The Table of Contents (TOC) is automatically generated with `\tableofcontents`, and you can manage references, images, and tables throughout the book. These tools provide flexibility to produce well-organized, professional documents in LaTeX.
