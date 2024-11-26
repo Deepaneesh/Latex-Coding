@@ -1,4 +1,4 @@
-"# Advantages of Latex
+# Advantages of Latex
 
 1. **Professional Output**: Produces high-quality, consistent documents ideal for technical and academic writing.  
 2. **Math and Scientific Excellence**: Simplifies complex equations and scientific content.  
