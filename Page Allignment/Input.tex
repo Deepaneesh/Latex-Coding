@@ -1,0 +1,36 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{geometry}
+\geometry{a4paper,total={160mm,247mm},left=20mm,top=20mm}
+\usepackage{lscape}
+\usepackage{multicol}
+
+\title{\textcolor{orange}{\LaTeX\ Beginner's Guide}}
+\author{Deepaneesh R V}
+\date{}
+
+\begin{document}
+	\maketitle
+	
+	\section{\textcolor{blue}{Getting started with \LaTeX}}
+	\blindtext[4]
+	
+	\newpage
+	\begin{landscape}
+		\section{\textcolor{brown}{Benefits of \LaTeX}}
+		\blindtext[4]
+	\end{landscape}
+	
+	\newpage
+	\section{\textcolor{violet}{Installing and using \LaTeX}}
+	\LaTeX\ is a free, open software for typesetting documents. You either need a \LaTeX\ installation on
+	your computer or you can use Overleaf.
+	\begin{multicols}{2}
+		
+		\blindtext[4]
+	\end{multicols}
+	
+\end{document}

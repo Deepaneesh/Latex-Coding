@@ -1,0 +1,60 @@
+\documentclass[a4paper]{article} 
+\usepackage{array} 
+\setlength{\extrarowheight}{5pt} 
+\usepackage{multirow} 
+\usepackage{booktabs} 
+\usepackage[table]{xcolor} 
+\begin{document} 
+	\noindent Body mass index (BMI) uses a person's height and weight to help determine if  they are a moderate weight, BMI charts also display underweight, overweight and obesity ranges.\\ 
+	\begin{table}[h!] 
+		\begin{center} 
+			\begin{tabular}{clcccl} 
+				\toprule[3.0pt] 
+				\multirow{3}{*}{\bfseries S.No.}&\multirow{3}{}{\bfseries Name}& 
+				\multicolumn{4}{c}{\bfseries{Body Mass Index (BMI)}} \\ 
+				\cmidrule[1.0pt](lr){3-6} 
+				& & \multicolumn{2}{c}{\bfseries Input} &  
+				\multicolumn{2}{c}{\bfseries Output}\\ 
+				\cmidrule[1.0pt](lr){3-4} \cmidrule[1.0pt](lr){5-6} 
+				& & Height &Weight & BMI value & Health\\ 
+				\midrule[2.0pt] 
+				1. & Person 1 &180 &50 &15.4 &Underweight\\ 
+				2. & Person 2&180 &60 &18.5 &Normal\\ 
+				3. & Person 3 &180 & 100 &30.9 & Obese\\ 
+				\bottomrule[3.0pt] 
+			\end{tabular} 
+			\caption{BMI calculator} 
+		\end{center} 
+	\end{table}\\ 
+	\noindent The below table contains student names and their respective scores for the three  subjects namely Maths, Science and English. 
+	\begin{table}[h!]
+		\centering 
+		\begin{tabular}{|c|c|c|c|} 
+			\hline 
+			\textbf{Name}&\textbf{Math}&\textbf{Science}&\textbf{English}\\ 
+			\hline 
+			Person 1&45&50&100\\ 
+			\hline 
+			Person 2&85&90&99\\ 
+			\hline 
+			person 3&100&99&99\\ 
+			\hline 
+		\end{tabular} 
+		\caption{Student Exam Scores} 
+		\label{tab:scores} 
+	\end{table} 
+	\noindent The following table gives the information about the student details along with  their name with initials, Roll number and department which they are in. 
+	\begin{table}[h!] 
+		\begin{center} 
+			\begin{tabular}{cccc} 
+				\hline 
+				S.No.& Roll Number& Name with Initial & Department\\ 
+				\hline 
+				1.& Rollno001&person 1&Department1\\ 
+				2.& Rollno002&person 2& Department2\\ 
+				\hline 
+			\end{tabular} 
+			\caption{Student list}\label{tab:student list} 
+		\end{center}
+	\end{table} 
+\end{document}

@@ -1,0 +1,39 @@
+\documentclass[a4paper]{article}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[tight]{subfigure}
+\pagestyle{empty}
+\begin{document}
+	\section{Image Inserting}
+	\blindtext
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.2]{"C:/Users/deepa/OneDrive/Pictures/phone photo/IMG_20230329_235551_377"}
+		\caption{photo 1}
+	\end{figure}
+	\blindtext
+	\pagebreak
+	\section{Including a image}
+	\blindtext
+	\begin{figure}[h]
+		\centering
+		\subfigure{photo 2}
+		{ \includegraphics[width=2cm]{"C:/Users/deepa/OneDrive/Pictures/phone photo/IMG_20230329_235551_377"}
+		} \hfill
+		\subfigure{photo 3}
+		{ \includegraphics[width=2cm]{"C:/Users/deepa/OneDrive/Pictures/phone photo/IMG_20230329_235551_377"}
+		} \\
+		\subfigure{photo 4}
+		{\includegraphics[width=2cm]{"C:/Users/deepa/OneDrive/Pictures/phone photo/IMG_20230329_235551_377"}
+		} \\
+	\end{figure}
+	\section{Wrap-Figure}
+	\blindtext
+	\begin{wrapfigure}{l}{4cm}
+		\includegraphics[width=4cm]{"C:/Users/deepa/OneDrive/Pictures/phone photo/IMG_20230329_235551_377"}
+		\caption{Photo 5}
+	\end{wrapfigure}
+	\blindtext
+\end{document}

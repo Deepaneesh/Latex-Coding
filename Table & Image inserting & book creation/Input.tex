@@ -1,0 +1,46 @@
+\documentclass[a4paper]{book}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{array}
+\setlength{\extrarowheight}{5pt}
+\begin{document}
+	\chapter{\LaTeX}
+	\section {Most used packages by LaTeX.org users}\label{sec:packages}
+	The top five packages, used by LaTeX.org members\footnote{according to the 2021
+		survey on
+		
+		LaTeX.org\label{fn:project}}:
+	\begin{enumerate}
+		\item Graphicx\label{item:graphicx}
+		\item Babel
+		\item Amsmath\label{item;amsmath}
+	\end{enumerate}
+	\section{Assigning a label to the environments}\label{sec:envir}
+	\blindtext[1]
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=2cm]{"C:/Users/deepa/OneDrive/Pictures/phone photo/IMG_20230329_235551_377"}
+		\caption{Photo 1}\label{fig:Ai}
+	\end{figure}
+	\blindtext[1]
+	\begin{table}[h!]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			S.No &Roll number &Name  &Department \\
+			\hline
+			1. &Rollno001 &person1&Department1 \\
+			2. &Rollno002 &person2 &Department2\\
+			3. &Rollno003&Person3 &Department3\\
+			\hline
+		\end{tabular}
+		\caption{Student List}\label{tab:student list}
+	\end{table}
+	\chapter{CRICKET}
+	\emph{Amsamath}, on position \ref{item;amsmath} of the top list in section
+	\ref{sec:packages} on
+	page\pageref{sec:packages},is indispensable to high-quality matematical typesetting in
+	\LaTeX. \\
+	\blindtext[4]
+\end{document}

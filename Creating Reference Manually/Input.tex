@@ -1,0 +1,33 @@
+\documentclass{article}
+\begin{document}
+	\section{Listing contents}
+	A table of contents (TDC) \index{table of contents} and an index are handy for
+	navigating
+	within a book.Lists of tables and list of figures are similarly helpful
+	This is a reference to a book \cite{latexcomp} and a journal article \cite{einstein}.
+	\begin{thebibliography}{9}
+		\bibitem{latexcomp}
+		Leslie Lamport,
+		\textit{LaTeX: A Document Preparation System},
+		Addison-Wesley, 1986.
+		\bibitem{einstein}
+		Albert Einstein,
+		\textit{Zur Elektrodynamik bewegter Körper},
+		Annalen der Physik, 322(10):891-921, 1905.
+	\end{thebibliography}
+\end{document}
+@book{latexcomp,
+	author = {Leslie Lamport},
+	title = {LaTeX: A Document Preparation System},
+	year = {1986},
+	publisher = {Addison-Wesley}
+}
+@article{einstein,
+	author = {Albert Einstein},
+	title = {Zur Elektrodynamik bewegter Körper},
+	journal = {Annalen der Physik},
+	volume = {322},
+	number = {10},
+	pages = {891--921},
+	year = {1905}
+}
